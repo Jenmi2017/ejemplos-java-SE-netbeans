@@ -6,8 +6,10 @@ import java.util.Scanner;
  *
  * @author memux
  */
-public class EjercicioPropuesto {
 
+
+public class EjercicioPropuesto {
+/*Hola */
     public static void main(String[] args) {
         int[][] notas = new int[3][3];
         double[] promedio = new double[3];
@@ -28,6 +30,7 @@ public class EjercicioPropuesto {
         }
         for (int fila = 0; fila < promedio.length; fila++){
             System.out.println("El promedio del alumno " + (fila + 1) + " es: " + formato.format(promedio[fila]));
+            System.out.println("Hola Mundo");
         }
     }
 }
